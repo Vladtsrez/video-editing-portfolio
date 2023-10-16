@@ -1,21 +1,38 @@
-.header {
-  padding: 20px 0;
-}
-
-.nav-list {
+.header-nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+}
+
+.header-logo {
+  margin-right: auto;
+  padding:28px 0;
+
+
+}
+
+.header-list {
+  display: flex;
   gap: 40px;
+
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.header-item-link {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+
+  transition: color 250ms ease-in-out;
+  padding: 28px 0;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.header-item-link:hover,
+.header-item-link:focus,
+.header-item-link:active {
+  color: var(--color-green);
+}
+
+.header-logo-fiverr {
+  fill: #fff;
+  scale: 150%;
+  margin-right: 20px;
 }
