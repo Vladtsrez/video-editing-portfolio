@@ -8,9 +8,11 @@
 @import url('./header.css');
 @import url('./hero-section.css');
 @import url('./services-section.css');
+@import url('./about-us.css');
 
 :root {
   --color-green: #D5F60C;
+  --color-secondary: #4269F6; 
 }
 
 body {

@@ -1,0 +1,105 @@
+.about-us {
+  padding: 48px 0;
+  background-color: #23252A;
+}
+
+.container {}
+
+.about-us_title {
+  font-family: 'Lora', serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+
+    margin-bottom: 8px;
+}
+
+.about-us_text {
+  text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+
+    margin-bottom: 32px;
+}
+
+.about-us_download-btn {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--BG, #000);
+
+  border-radius: 30px;
+  background: var(--Secondary, #D5F60C);
+  padding: 8px;
+  width: 200px;
+  height: 48px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 250ms ease-in-out;
+}
+
+.about-us_download-btn:hover,
+.about-us_download-btn:active,
+.about-us_download-btn:focus {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.about-us_list {
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+
+.about-us_list-item-title {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+
+  font-family: Lora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+    
+    
+  row-gap: 8px;
+  width: 410px;
+    
+  transition: color 250ms ease-in-out;
+  cursor: pointer;
+}
+
+.about-us_list-item-title:hover,
+.about-us_list-item-title:active,
+.about-us_list-item-title:focus {
+    color: #D5F60C;
+}
+
+.about-us_list-item::after {
+  content: '';
+  transform: scale(0);
+
+  transition: transform 300ms ease-in-out;
+}
+
+.about-us_list-item:hover::after {
+content: '';
+display: block;
+width: 410px;
+height: 2px;
+transform: scale(1);
+background-color: #D5F60C;
+position: absolute;
+bottom: -8px;
+}
