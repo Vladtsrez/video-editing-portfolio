@@ -58,6 +58,8 @@
 display: flex;
 justify-content: space-between;
 position: relative;
+
+  margin-bottom: 56px;
 }
 
 .about-us_list-item-title {
@@ -101,4 +103,82 @@ transform: scale(1);
 background-color: #D5F60C;
 position: absolute;
 bottom: -8px;
+  border-radius: 4px;
+}
+
+.about-us_active-option {
+  color: var(--Secondary, #D5F60C);
+
+}
+
+.about-us_active-option::after {
+  content: '';
+  display: block;
+  width: 410px;
+  height: 2px;
+  transform: scale(1);
+  background-color: #D5F60C;
+  position: absolute;
+  bottom: -8px;
+}
+
+.about-us_expirience {
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+
+
+.about-us_expirience-list {
+  display: flex;
+  gap: 240px;
+
+}
+
+.about-us_expirience-list:not(:last-child){
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 20px;
+}
+
+
+
+.expirience-column_1 {
+width: 180px;
+}
+
+
+.expirience-column_2 {
+  width: 203px;
+}
+
+.expirience-column_3 {
+  width: 400px;
+}
+
+.about-us_expirience-list-item {
+
+}
+
+.expirience-item-years {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.expirience-item-text {
+  font-family: 'Lora', serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.expirience-item-text_2 {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
