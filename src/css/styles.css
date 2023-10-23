@@ -9,6 +9,7 @@
 @import url('./hero-section.css');
 @import url('./services-section.css');
 @import url('./about-us.css');
+@import url('./testimoni.css');
 
 :root {
   --color-green: #D5F60C;
