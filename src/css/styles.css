@@ -10,6 +10,7 @@
 @import url('./services-section.css');
 @import url('./about-us.css');
 @import url('./testimoni.css');
+@import url('./contact.css');
 
 :root {
   --color-green: #D5F60C;
@@ -26,4 +27,8 @@ body {
   max-width: 1300px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+p, h1, h2, h3, h4 {
+  cursor: default;
 }

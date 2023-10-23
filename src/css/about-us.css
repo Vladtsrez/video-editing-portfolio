@@ -1,6 +1,8 @@
 .about-us {
   padding: 48px 0;
   background-color: #23252A;
+  position: relative;
+  z-index: 999;
 }
 
 .container {}
