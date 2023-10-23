@@ -1,0 +1,68 @@
+.contact-section {
+  padding: 56px 0;
+  position: relative;
+  background-color: #000;
+}
+
+.container {}
+
+.contact-send-message {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+
+.contact-message-editor {
+  display: flex;
+  gap: 16px;
+}
+
+.send-message-subtitle {
+  font-family: 'Lora', serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: default;
+
+    transition: color 300ms ease-in-out;
+}
+
+.send-message-subtitle:hover {
+  color: var(--color-green)
+}
+
+.send-message-button {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+    line-height: normal;
+
+    color: #ffff;
+    transition: color 300ms ease-in-out ;
+}
+
+.send-message-button:hover,
+.send-message-button:active,
+.send-message-button:focus {
+  color: var(--color-green);
+}
+.contact-title {
+  font-family: 'Lora', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.contact-title-marked-word {
+  color: var(--color-green);
+  font-family: 'Lora', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
