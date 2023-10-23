@@ -1,0 +1,116 @@
+.testimoni-section {
+  padding: 120px 0;
+  position: relative;
+}
+
+.container {}
+
+.testimoni-container {
+  position: relative;
+  z-index: 999;
+}
+
+.testimoni-title {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-bottom: 32px;
+}
+
+.testimoni {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+
+
+.testimoni-img-wrapp::before {
+  content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: -20px;
+    top: 20px;
+  
+    z-index: 1;
+  
+    width: 340.897px;
+    height: 341.766px;
+    border-radius: 25px;
+    background: var(--Primary, #4269F6);
+
+    transition: all 300ms ease-in-out;
+}
+
+.testimoni-img-wrapp:hover::before {
+  content: '';
+  left: 1px;
+  top: -0.6px;
+}
+
+.test {
+  position: absolute;
+  z-index: 1;
+}
+
+.testimoni-review {
+  display: flex;
+  flex-direction: column;
+  width: 705px;
+  margin-top: 165px;
+}
+
+.review-quote-brackets {
+  position: absolute;
+  top: 90px;
+  left: 42%;
+}
+
+.review-description {
+  position: relative;
+}
+
+.review-text {
+  margin-bottom: 40px;
+
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.reviewer-name {
+  margin-bottom: 8px;
+  font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.reviewer-subtitle {
+  font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.radial-blur-circle::after {
+  content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 762px;
+        height: 762px;
+        border-radius: 762px;
+        background: rgba(66, 105, 246, 0.47);
+        filter: blur(150px);
+}
