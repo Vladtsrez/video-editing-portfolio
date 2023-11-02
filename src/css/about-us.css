@@ -58,8 +58,8 @@
 
 .about-us_list {
 display: flex;
-justify-content: space-between;
 position: relative;
+justify-content: center;
 
   margin-bottom: 56px;
 }
@@ -133,7 +133,7 @@ gap: 40px;
 
 .about-us_expirience-list {
   display: flex;
-  gap: 240px;
+  justify-content: space-between;
 
 }
 
@@ -146,6 +146,7 @@ gap: 40px;
 
 .expirience-column_1 {
 width: 180px;
+margin-right: 10px;
 }
 
 
@@ -183,4 +184,34 @@ width: 180px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .educ-btn {
+    display: none;
+  }
+
+  .skills-btn {
+    display: none;
+  }
+
+    .about-us_expirience-list {
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+
+  .expirience-column_1 {
+    text-align: center;
+  }
+
+  .expirience-column_2 {
+    width: 300px;
+    text-align: center;
+  }
+
+    .expirience-column_3 {
+      text-align: center;
+    }
 }
