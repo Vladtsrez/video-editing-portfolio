@@ -6,15 +6,11 @@
 .header-logo {
   margin-right: auto;
   padding:28px 0;
-
-
 }
 
 .header-list {
   display: flex;
   gap: 40px;
-
-
 }
 
 .header-item {
@@ -59,4 +55,10 @@
   fill: #fff;
   scale: 150%;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .header-list {
+    gap: 20px;
+  }
 }

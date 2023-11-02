@@ -1,3 +1,8 @@
+img {
+  display: block;
+  height: 100%;
+}
+
 .testimoni-section {
   padding: 120px 0;
   position: relative;
@@ -113,4 +118,33 @@
         border-radius: 762px;
         background: rgba(66, 105, 246, 0.47);
         filter: blur(150px);
+}
+
+@media screen and (max-width: 768px) {
+ .testimoni-img-wrapp {
+  display: none;
+ }
+.testimoni-review {
+  margin-top: 0;
+  text-align: center;
+}
+
+.review-quote-brackets {
+  position: absolute;
+  top: -80px;
+  left: 20px;
+  opacity: 0.5;
+}
+
+.radial-blur-circle::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 352px;
+  height: 602px;
+  border-radius: 762px;
+  background: rgba(66, 105, 246, 0.47);
+  filter: blur(150px);
+}
 }
