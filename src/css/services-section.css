@@ -1,6 +1,7 @@
 .services-section {
   background-color: #4269F6;
   padding: 20px 0;
+  position: relative;
 }
 
 .container {}
