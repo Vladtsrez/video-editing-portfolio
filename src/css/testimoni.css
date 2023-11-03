@@ -110,6 +110,7 @@ img {
     display: flex;
     align-items: center;
     gap: 10px;
+
 }
 
 .radial-blur-circle::after {
@@ -193,6 +194,10 @@ img {
   border-radius: 762px;
   background: rgba(66, 105, 246, 0.47);
   filter: blur(150px);
+}
+
+.reviewer-subtitle {
+      justify-content: center;
 }
 }
 
