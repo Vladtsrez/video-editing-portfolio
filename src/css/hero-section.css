@@ -231,6 +231,79 @@
   
 }
 
+@media screen and (max-width: 1024px) {
+  .hero-card-img {
+    position: absolute;
+    width: 400px;
+    height: 627px;
+    border-radius: 400px;
+    background-color: #4269F6;
+
+    right: 15px;
+    top: -80px;
+    z-index: -1;
+
+    background-image: url(./../img/vlad.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+  }
+
+  .hero-card-1 {
+    right: 330px;
+    top: 0;
+  }
+
+  .hero-card-2 {
+    transform: scale(90%);
+    right: 300px;
+    bottom: -80px;
+  }
+
+  .hero-card-3 {
+    right: 0;
+    top: 15px;
+    transform: scale(90%);
+  }
+
+  .hero-arrow-2 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 470px;
+    right: 320px;
+
+  }
+
+  .hero-arrow-1 {
+    position: absolute;
+    top: -100px;
+    right: 350px;
+  }
+
+  .hero-container::after {
+    top: 38.5%;
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(-10.825deg);
+    width: 388px;
+    height: 83.061px;
+  }
+
+  .hero-star-1 {
+    bottom: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .hero-star-2 {
+    top: 24%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+  }
+}
+
 @media screen and (max-width: 768px) {
 .hero-card-img {
     position: absolute;
@@ -275,15 +348,15 @@
     transform: scale(90%);
   }
 
-    .hero-arrow-2 {
-      position: absolute;
-      top: 50%;
-      right: 50%;
-      transform: translate(-50%, -50%);
-      top: 470px;
-      right: 320px;
+.hero-arrow-2 {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  top: 470px;
+  right: 320px;
   
-    }
+}
 
 .hero-arrow-1 {
   position: absolute;
@@ -316,3 +389,4 @@
     width: 330px;
 }
 }
+
