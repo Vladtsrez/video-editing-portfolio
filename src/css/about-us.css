@@ -7,6 +7,8 @@
 
 .container {}
 
+
+
 .about-us_title {
   font-family: 'Lora', serif;
     font-size: 48px;
@@ -186,6 +188,7 @@ margin-right: 10px;
     line-height: normal;
 }
 
+
 @media screen and (max-width: 768px) {
   .educ-btn {
     display: none;
@@ -223,13 +226,18 @@ margin-right: 10px;
   }
 
   .about-us_active-option::after {
-      width: 350px;
+      width: 320px;
       height: 2px;
-      transform: scale(1);
       bottom: -8px;
     }
 
   .expirience-column_3 {
     width: 100%;
   }
+
+  .about-us_list-item-title {
+    width: 100%;
+  }
+
+
 }
