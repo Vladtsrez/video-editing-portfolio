@@ -136,7 +136,7 @@ gap: 40px;
 .about-us_expirience-list {
   display: flex;
   justify-content: space-between;
-
+  align-items: center;
 }
 
 .about-us_expirience-list:not(:last-child){
@@ -203,6 +203,10 @@ margin-right: 10px;
       gap: 20px;
       justify-content: center;
       align-items: center;
+    }
+
+    .expirience-item-text {
+      margin-top: 10px;
     }
 
   .expirience-column_1 {
