@@ -73,3 +73,25 @@
   }
   
 }
+
+@media screen and (max-width: 375px){
+
+  .contact-message-editor {
+    align-items: center;
+  }
+
+  .send-message {
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .send-message-button {
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .contact-title {
+    font-size: 40px;
+  }
+}

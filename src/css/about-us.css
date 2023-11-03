@@ -215,3 +215,21 @@ margin-right: 10px;
       text-align: center;
     }
 }
+
+@media screen and (max-width: 375px) {
+  .exp-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-us_active-option::after {
+      width: 350px;
+      height: 2px;
+      transform: scale(1);
+      bottom: -8px;
+    }
+
+  .expirience-column_3 {
+    width: 100%;
+  }
+}

@@ -114,3 +114,28 @@
 }
 }
 
+@media screen and (max-width: 375px) {
+  .portfolio-container {
+    flex-direction: column;
+  }
+
+  .portfolio-title {
+    max-width: 375px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-text {
+    max-width: 375px;
+    text-align: center;
+  }
+
+  .swiper-slide {
+    width: 355px;
+    height: 200px;
+    
+  }
+
+
+}
+
