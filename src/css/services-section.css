@@ -46,19 +46,15 @@
       justify-content: center;
     }
 
-        .services-icon {
+        /*.services-icon {
           position: relative;
         }
-
-                .services-icon > use {
-                  position: absolute;
-                }
 
     .yt-icon {
       top: 50%;
       left: 50%;
       transform: translate(35%, 0);
-    }
+    }*/
 
   .fiverr-use-logo {
     transform: translate(-18%, -40%) scale(180%);
