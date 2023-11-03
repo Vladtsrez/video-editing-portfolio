@@ -223,7 +223,7 @@ margin-right: 10px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 435px) {
   .exp-btn {
     display: flex;
     justify-content: center;
