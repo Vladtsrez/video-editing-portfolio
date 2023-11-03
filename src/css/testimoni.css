@@ -120,6 +120,51 @@ img {
         filter: blur(150px);
 }
 
+@media screen and (max-width: 1024px) {
+  .testimoni {
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimoni-review {
+    margin: 0;
+  }
+
+  .test {
+    position: relative;
+    max-width: 100px;
+  }
+
+  .testimoni-img {
+    border-radius: 80%;
+    transform: scale(100%);
+  }
+
+  .testimoni-img-wrapp::before {
+    display: none;
+  }
+
+  .review-quote-brackets {
+    position: absolute;
+    top: -80px;
+    left: 200px;
+    opacity: 0.5;
+  }
+
+  .radial-blur-circle::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 352px;
+    height: 602px;
+    border-radius: 762px;
+    background: rgba(66, 105, 246, 0.47);
+    filter: blur(150px);
+  }
+}
+
 @media screen and (max-width: 768px) {
  .testimoni-img-wrapp {
   display: none;
@@ -148,3 +193,4 @@ img {
   filter: blur(150px);
 }
 }
+

@@ -74,6 +74,27 @@
   filter: blur(150px);
 }
 
+@media screen and (max-width: 1280px) {
+  .portfolio {
+    padding: 100px 0;
+  }
+
+  .portfolio-title {
+    width: 455px;
+  }
+
+  .portfolio-text {
+    width: 450px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: contain;
+    width: 800px;
+    height: 500px;
+  }
+}
+
 @media screen and (max-width: 768px) {
 .swiper-slide {
   background-position: center;
@@ -83,26 +104,13 @@
 }
 
 .portfolio-title {
-  color: var(--Text, #FFF);
-  /* Heading 3 */
-  font-family: 'Lora', serif;
   font-size: 48px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
   width: 455px;
-  position: relative;
 }
 
 .portfolio-text {
-  color: var(--Text, #FFF);
-  /* Body Big - M */
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   width: 400px;
-  position: relative;
 }
 }
+
