@@ -110,8 +110,8 @@ button {
               left: 0;
               width: 100vw;
               height: 100vh;
-              background-color: #FFFFFF;
-              color: #000;
+              background-color: #000000;
+              color: #FFFFFF;
               padding: 72px 16px 40px 16px;
               display: flex;
               flex-direction: column;
@@ -147,7 +147,7 @@ button {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: var(--cornflower-color);
+  background-color: #FFFFFF;
   border: 1px solid rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 24px;
