@@ -5,7 +5,7 @@
   width: 60px;
   height: 60px;
   background-color: var(--color-green);
-  background-image: url(./../img/top-arrow-icon.webp);
+  background-image: url(./img/top-arrow-icon.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
