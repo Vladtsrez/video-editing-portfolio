@@ -91,7 +91,7 @@
   top: -80px;
   z-index: -1;
 
-  background-image: url(./../img/vlad.png);
+  background-image: url(./../img/vlad-min.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 150%;
@@ -233,20 +233,8 @@
 
 @media screen and (max-width: 1024px) {
   .hero-card-img {
-    position: absolute;
-    width: 400px;
-    height: 627px;
-    border-radius: 400px;
-    background-color: #4269F6;
-
     right: 15px;
     top: -80px;
-    z-index: -1;
-
-    background-image: url(./../img/vlad.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 150%;
   }
 
   .hero-card-1 {
@@ -305,23 +293,6 @@
 }
 
 @media screen and (max-width: 768px) {
-.hero-card-img {
-    position: absolute;
-    width: 400px;
-    height: 627px;
-    border-radius: 400px;
-    background-color: #4269F6;
-
-    right: 15px;
-    top: -80px;
-    z-index: -1;
-
-    background-image: url(./../img/vlad.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 150%;
-  }
-
   .hero-title {
     font-family: 'Lora', serif;
     font-size: 50px;
